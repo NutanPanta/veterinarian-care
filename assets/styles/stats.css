@@ -1,0 +1,29 @@
+#stats {
+  background: url('../images/stats.jpg');
+  position: relative;
+  height: 575px;
+  opacity: 0.839;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 145px;
+}
+
+#stats::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(252, 195, 2, 0.8392156862745098);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#stats img {
+  width: 93px;
+  height: 93px;
+}
+
+#stats span {
+  color: var(--bs-white);
+}

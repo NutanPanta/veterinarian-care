@@ -23,6 +23,10 @@ img {
   height: 100%;
 }
 
+.fw-500 {
+  font-weight: 500 !important;
+}
+
 h6,
 .h6,
 h5,
