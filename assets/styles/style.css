@@ -5,6 +5,7 @@
 }
 :root {
   --bs-primary: #fcc302;
+  --bs-primary-rgb: 252, 195, 2;
   --bs-primary-dark: #daac00;
 }
 
