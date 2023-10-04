@@ -31,7 +31,7 @@ dogsContainer.innerHTML = dogs
         <del>$50</del>
         <span>$30</span>
       </h3>
-      <a href="#" class="btn text-white subtitle1 rounded-pill d-flex align-items-center justify-content-center" style="width:200px; height:60px; background-color:#00bec9;">Buy Now</a>
+      <a href="#" class="btn text-white subtitle1 rounded-pill d-flex align-items-center justify-content-center" style="width:200px; height:60px; background-color:var(--secondary-color);">Buy Now</a>
     </div>
   </div>
 `

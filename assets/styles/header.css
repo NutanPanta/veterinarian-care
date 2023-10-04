@@ -31,6 +31,6 @@ header form input::placeholder {
 }
 
 header form button {
-  background-color: #00bec9 !important;
+  background-color: var(--secondary-color) !important;
   line-height: 0 !important;
 }
