@@ -1,0 +1,8 @@
+#recentPosts {
+  margin-top: 139px;
+}
+@media (min-width: 991px) {
+  #recentPosts img {
+    height: 351px;
+  }
+}
