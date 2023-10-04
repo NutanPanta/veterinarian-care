@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Providing high-quality veterinary care for your beloved pets."
+    />
+    <meta
+      name="keywords"
+      content="veterinarian, pet care, animal health, veterinary services"
+    />
+    <meta name="author" content="Veterinarian Care" />
+    <meta name="robots" content="index, follow" />
+
     <title>Veterinarian Care</title>
+
     <!-- Poppins font from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,6 +35,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
     <link rel="stylesheet" href="./assets/styles/post.css" />
     <link rel="stylesheet" href="./assets/styles/stats.css" />
     <link rel="stylesheet" href="./assets/styles/team.css" />
@@ -158,7 +171,9 @@
     <!-- About Section Start -->
     <section class="about">
       <div class="container">
-        <div class="d-flex flex-row align-items-center justify-content-between">
+        <div
+          class="about-container flex-row align-items-center justify-content-between"
+        >
           <div class="text-container">
             <h2>
               <span style="white-space: nowrap">As a veterinarian and</span
@@ -172,6 +187,21 @@
               <span>have suffered alteration in some form</span><br />
               by injectedhumour randomised words.
             </p>
+            <div
+              class="image-container image-container-mobile position-relative openVideoPopup"
+              role="button"
+              data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+            >
+              <img src="./assets/images/dog-five.png" alt="" />
+              <div
+                class="play-container position-absolute top-50 start-50 translate-middle"
+              >
+                <i
+                  class="ph-fill ph-play position-absolute top-50 start-50"
+                  style="transform: translate(-50%, -50%) rotateY(-180deg)"
+                ></i>
+              </div>
+            </div>
             <button
               type="button"
               class="btn bg-primary text-white subtitle1 fw-normal mt-5"
@@ -179,7 +209,11 @@
               Our Service
             </button>
           </div>
-          <div class="image-container position-relative">
+          <div
+            class="image-container position-relative openVideoPopup"
+            role="button"
+            data-video-url="https://www.youtube.com/embed/tgbNymZ7vqY"
+          >
             <img src="./assets/images/dog-one.png" alt="" />
             <div
               class="play-container position-absolute top-50 start-50 translate-middle"
@@ -217,7 +251,7 @@
     <section class="about about-flipped">
       <div class="container">
         <div
-          class="d-flex flex-row-reverse align-items-center justify-content-between"
+          class="about-container d-flex flex-row-reverse align-items-center justify-content-center"
         >
           <div class="text-container">
             <h2>
@@ -232,6 +266,21 @@
               <span>have suffered alteration in some form</span><br />
               by injectedhumour randomised words.
             </p>
+            <div
+              class="image-container image-container-mobile position-relative openVideoPopup"
+              role="button"
+              data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+            >
+              <img src="./assets/images/dog-five.png" alt="" />
+              <div
+                class="play-container position-absolute top-50 start-50 translate-middle"
+              >
+                <i
+                  class="ph-fill ph-play position-absolute top-50 start-50"
+                  style="transform: translate(-50%, -50%) rotateY(-180deg)"
+                ></i>
+              </div>
+            </div>
             <button
               type="button"
               class="btn bg-primary text-white subtitle1 fw-normal mt-5"
@@ -239,7 +288,12 @@
               Our Service
             </button>
           </div>
-          <div class="image-container position-relative">
+
+          <div
+            class="image-container position-relative openVideoPopup"
+            role="button"
+            data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+          >
             <img src="./assets/images/dog-five.png" alt="" />
             <div
               class="play-container position-absolute top-50 start-50 translate-middle"
@@ -333,9 +387,81 @@
     </section>
     <!-- Recent Posts End -->
 
+    <div class="popup videoPopup">
+      <span class="close">&times;</span>
+      <iframe
+        class="videoFrame"
+        src=""
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <!-- Footer Start -->
     <footer>
-      <div class="container"></div>
+      <div class="container">
+        <div class="d-flex flex-row flex-wrap justify-content-between">
+          <div class="footer-about">
+            <h3 class="text-white">About</h3>
+            <ul class="p-0 mt-4">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Brand Guidelines</a></li>
+              <li><a href="#">Terms&Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h3 class="text-white">Services</h3>
+            <ul class="p-0 mt-4">
+              <li><a href="#">How to order</a></li>
+              <li><a href="#">Our Product</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Promo</a></li>
+              <li><a href="#">Payment Method</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials text-end">
+            <h3 class="text-white">Title Here</h3>
+            <p class="h4 fw-normal text-white">
+              Lorem Ipsum available, but the majorit
+            </p>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control rounded-0 border-0 text-white"
+                type="email"
+                placeholder="example@email.com"
+              />
+              <button class="btn rounded-0" type="submit">
+                <i
+                  class="ph-duotone ph-paper-plane-tilt text-white"
+                  style="font-size: 32px"
+                ></i>
+              </button>
+            </form>
+            <div class="d-flex flex-row justify-content-end gap-3 mt-4">
+              <i
+                class="ph ph-instagram-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph-fill ph-facebook-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph ph-twitter-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph ph-whatsapp-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Footer End -->
 
