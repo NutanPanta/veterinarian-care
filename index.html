@@ -17,7 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/styles/services.css" />
+    <link rel="stylesheet" href="./assets/styles/buy-dogs.css" />
+    <link rel="stylesheet" href="./assets/styles/about.css" />
     <link rel="stylesheet" href="./assets/styles/hero.css" />
     <link rel="stylesheet" href="./assets/styles/header.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
@@ -144,8 +145,8 @@
     </section>
     <!-- Hero Section End -->
 
-    <!-- Services Section Start -->
-    <section id="services">
+    <!-- About Section Start -->
+    <section class="about">
       <div class="container">
         <div class="d-flex flex-row align-items-center justify-content-between">
           <div class="text-container">
@@ -181,7 +182,65 @@
         </div>
       </div>
     </section>
-    <!-- Services Section End -->
+    <!-- About Section End -->
+
+    <!-- About Flipped Start -->
+    <section class="about about-flipped">
+      <div class="container">
+        <div
+          class="d-flex flex-row-reverse align-items-center justify-content-between"
+        >
+          <div class="text-container">
+            <h2>
+              <span style="white-space: nowrap">As a veterinarian and</span
+              ><br />
+              <span style="white-space: nowrap">lover of animals</span>
+            </h2>
+            <p class="mt-4">
+              <span style="white-space: nowrap"
+                >Lorem Ipsum available but the majority</span
+              ><br />
+              <span>have suffered alteration in some form</span><br />
+              by injectedhumour randomised words.
+            </p>
+            <button
+              type="button"
+              class="btn bg-primary text-white subtitle1 fw-normal mt-5"
+            >
+              Our Service
+            </button>
+          </div>
+          <div class="image-container position-relative">
+            <img src="./assets/images/dog-five.png" alt="" />
+            <div
+              class="play-container position-absolute top-50 start-50 translate-middle"
+            >
+              <i
+                class="ph-fill ph-play position-absolute top-50 start-50"
+                style="transform: translate(-50%, -50%) rotateY(-180deg)"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Flipped End -->
+
+    <!-- Buy Dogs Section Start -->
+    <section id="buyDogs" class="text-center">
+      <div class="container">
+        <h2 class="h1 text-white" style="font-size: 4.6875rem">Title Here</h2>
+        <p class="text-white h3 fw-normal">
+          <span style="white-space: nowrap"
+            >Lorem Ipsum available but the majority have</span
+          ><br />
+          suffered alteration in some form
+        </p>
+
+        <div class="d-flex flex-row flex-wrap gap-3" id="dogsContainer"></div>
+      </div>
+    </section>
+    <!-- Buy Dogs Section End -->
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -190,6 +249,7 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom Script -->
-    <script src="./index.js"></script>
+    <script src="./assets/js/dogs.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
