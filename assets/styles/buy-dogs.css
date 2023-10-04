@@ -1,0 +1,16 @@
+#buyDogs {
+  background-color: var(--bs-primary);
+  margin-top: 139px;
+  padding: 120px 0;
+}
+
+#buyDogs #dogsContainer {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  #buyDogs #dogsContainer {
+    justify-content: space-between;
+  }
+}

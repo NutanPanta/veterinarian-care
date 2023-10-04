@@ -1,0 +1,36 @@
+header {
+  background-color: var(--bs-primary-dark);
+}
+
+header nav {
+  height: 121px;
+  background-color: inherit;
+}
+
+header .offcanvas {
+  background-color: var(--bs-primary-dark);
+}
+
+header nav li a {
+  font-size: 29px !important;
+  color: var(--bs-white) !important;
+}
+
+header form {
+  max-height: 51px;
+}
+
+header form input {
+  background-color: var(--bs-primary) !important;
+  filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+}
+
+header form input::placeholder {
+  color: var(--bs-white) !important;
+  opacity: 1;
+}
+
+header form button {
+  background-color: var(--secondary-color) !important;
+  line-height: 0 !important;
+}

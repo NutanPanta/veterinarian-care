@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Providing high-quality veterinary care for your beloved pets."
+    />
+    <meta
+      name="keywords"
+      content="veterinarian, pet care, animal health, veterinary services"
+    />
+    <meta name="author" content="Veterinarian Care" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Veterinarian Care</title>
+
+    <!-- Poppins font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swipper CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
+    <link rel="stylesheet" href="./assets/styles/post.css" />
+    <link rel="stylesheet" href="./assets/styles/stats.css" />
+    <link rel="stylesheet" href="./assets/styles/team.css" />
+    <link rel="stylesheet" href="./assets/styles/services.css" />
+    <link rel="stylesheet" href="./assets/styles/buy-dogs.css" />
+    <link rel="stylesheet" href="./assets/styles/about.css" />
+    <link rel="stylesheet" href="./assets/styles/hero.css" />
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        aria-label="Offcanvas navbar large"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/images/logo.png" alt="Veterinarian Care"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbar2Label"
+          >
+            <div class="offcanvas-header">
+              <a class="offcanvas-title" id="offcanvasNavbar2Label" href="#"
+                ><img src="./assets/images/logo.png" alt="Veterinarian Care"
+              /></a>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 gap-5"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control rounded-0 border-0 text-white"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn rounded-0" type="submit">
+                  <i class="ph-bold ph-magnifying-glass text-white"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="d-flex align-items-center justify-content-between h-100">
+          <div class="text-container d-flex flex-column gap-4">
+            <h1 class="text-white">
+              <span style="white-space: nowrap">First I wanted to be</span
+              ><br />
+              <span style="white-space: nowrap">a veterinarian</span>
+            </h1>
+            <p class="text-white">
+              <span style="white-space: nowrap"
+                >Lorem Ipsum available but the majority have</span
+              ><br />
+              <span>suffered alteration in some form, by injected</span><br />
+              humour randomised words.
+            </p>
+            <div class="d-flex flex-row gap-4">
+              <button
+                type="button"
+                class="btn text-white subtitle1"
+                style="background: var(--secondary-color)"
+              >
+                Contact Us
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light subtitle1 border-3"
+              >
+                Our Service
+              </button>
+            </div>
+          </div>
+          <div class="image-container">
+            <img
+              src="./assets/images/dog.png"
+              style="transform: rotateY(180deg); max-height: 725px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="about">
+      <div class="container">
+        <div
+          class="about-container flex-row align-items-center justify-content-between"
+        >
+          <div class="text-container">
+            <h2>
+              <span style="white-space: nowrap">As a veterinarian and</span
+              ><br />
+              <span style="white-space: nowrap">lover of animals.</span>
+            </h2>
+            <p class="mt-4">
+              <span style="white-space: nowrap"
+                >Lorem Ipsum available but the majority</span
+              ><br />
+              <span>have suffered alteration in some form</span><br />
+              by injectedhumour randomised words.
+            </p>
+            <div
+              class="image-container image-container-mobile position-relative openVideoPopup"
+              role="button"
+              data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+            >
+              <img src="./assets/images/dog-five.png" alt="" />
+              <div
+                class="play-container position-absolute top-50 start-50 translate-middle"
+              >
+                <i
+                  class="ph-fill ph-play position-absolute top-50 start-50"
+                  style="transform: translate(-50%, -50%) rotateY(-180deg)"
+                ></i>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn bg-primary text-white subtitle1 fw-normal mt-5"
+            >
+              Our Service
+            </button>
+          </div>
+          <div
+            class="image-container position-relative openVideoPopup"
+            role="button"
+            data-video-url="https://www.youtube.com/embed/tgbNymZ7vqY"
+          >
+            <img src="./assets/images/dog-one.png" alt="" />
+            <div
+              class="play-container position-absolute top-50 start-50 translate-middle"
+            >
+              <i
+                class="ph-fill ph-play position-absolute top-50 start-50 translate-middle"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="text-center">
+      <div class="container">
+        <h2 class="h1 text-white" style="font-size: 4.6875rem">Title Here</h2>
+        <p class="text-white h3 fw-normal">
+          <span style="white-space: nowrap"
+            >Lorem Ipsum available but the majority have</span
+          ><br />
+          suffered alteration in some form
+        </p>
+
+        <div
+          class="d-flex flex-row flex-wrap gap-3"
+          id="servicesContainer"
+        ></div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- About Flipped Start -->
+    <section class="about about-flipped">
+      <div class="container">
+        <div
+          class="about-container d-flex flex-row-reverse align-items-center justify-content-center"
+        >
+          <div class="text-container">
+            <h2>
+              <span style="white-space: nowrap">As a veterinarian and</span
+              ><br />
+              <span style="white-space: nowrap">lover of animals</span>
+            </h2>
+            <p class="mt-4">
+              <span style="white-space: nowrap"
+                >Lorem Ipsum available but the majority</span
+              ><br />
+              <span>have suffered alteration in some form</span><br />
+              by injectedhumour randomised words.
+            </p>
+            <div
+              class="image-container image-container-mobile position-relative openVideoPopup"
+              role="button"
+              data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+            >
+              <img src="./assets/images/dog-five.png" alt="" />
+              <div
+                class="play-container position-absolute top-50 start-50 translate-middle"
+              >
+                <i
+                  class="ph-fill ph-play position-absolute top-50 start-50"
+                  style="transform: translate(-50%, -50%) rotateY(-180deg)"
+                ></i>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn bg-primary text-white subtitle1 fw-normal mt-5"
+            >
+              Our Service
+            </button>
+          </div>
+
+          <div
+            class="image-container position-relative openVideoPopup"
+            role="button"
+            data-video-url="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0"
+          >
+            <img src="./assets/images/dog-five.png" alt="" />
+            <div
+              class="play-container position-absolute top-50 start-50 translate-middle"
+            >
+              <i
+                class="ph-fill ph-play position-absolute top-50 start-50"
+                style="transform: translate(-50%, -50%) rotateY(-180deg)"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Flipped End -->
+
+    <!-- Buy Dogs Section Start -->
+    <section id="buyDogs" class="text-center">
+      <div class="container">
+        <h2 class="h1 text-white" style="font-size: 4.6875rem">Title Here</h2>
+        <p class="text-white h3 fw-normal">
+          <span style="white-space: nowrap"
+            >Lorem Ipsum available but the majority have</span
+          ><br />
+          suffered alteration in some form
+        </p>
+
+        <div class="d-flex flex-row flex-wrap gap-3" id="dogsContainer"></div>
+      </div>
+    </section>
+    <!-- Buy Dogs Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="text-center">
+      <div class="container">
+        <h2 class="h1" style="font-size: 4.6875rem">The vetcare team</h2>
+        <p class="h3 fw-normal">
+          <span style="white-space: nowrap"
+            >Lorem Ipsum available but the majority have</span
+          ><br />
+          suffered alteration in some form
+        </p>
+
+        <div class="swiper">
+          <div class="swiper-wrapper" id="teamContainer"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Vet Stats Starts -->
+    <section id="stats">
+      <div class="container h-100">
+        <div
+          class="stat-container d-flex flex-row align-items-center flex-wrap justify-content-between h-100"
+        >
+          <div class="d-flex flex-column gap-4 align-items-center">
+            <img src="./assets/images/heart.svg" alt="Happy Clients" />
+            <span class="h3 fw-500">+34793</span>
+            <span class="h3">Happy Clients</span>
+          </div>
+          <div class="d-flex flex-column gap-4 align-items-center">
+            <img src="./assets/images/heart.svg" alt="Department" />
+            <span class="h3 fw-500">+45382</span>
+            <span class="h3">Department</span>
+          </div>
+          <div class="d-flex flex-column gap-4 align-items-center">
+            <img src="./assets/images/heart.svg" alt="Vaccinations" />
+            <span class="h3 fw-500">+54762</span>
+            <span class="h3">Vaccinations</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Vet Stats Ends -->
+
+    <!-- Recent Posts Start -->
+    <section id="recentPosts" class="text-center">
+      <div class="container">
+        <h2 class="h1" style="font-size: 4.6875rem">Recent Posts</h2>
+        <p class="h3 fw-normal">
+          <span style="white-space: nowrap"
+            >Lorem Ipsum available but the majority have</span
+          ><br />
+          suffered alteration in some form
+        </p>
+        <div
+          class="card-group justify-content-between gap-4 mt-5"
+          id="postsContainer"
+        ></div>
+      </div>
+    </section>
+    <!-- Recent Posts End -->
+
+    <div class="popup videoPopup">
+      <span class="close">&times;</span>
+      <iframe
+        class="videoFrame"
+        src=""
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container">
+        <div class="d-flex flex-row flex-wrap justify-content-between">
+          <div class="footer-about">
+            <h3 class="text-white">About</h3>
+            <ul class="p-0 mt-4">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Brand Guidelines</a></li>
+              <li><a href="#">Terms&Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h3 class="text-white">Services</h3>
+            <ul class="p-0 mt-4">
+              <li><a href="#">How to order</a></li>
+              <li><a href="#">Our Product</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Promo</a></li>
+              <li><a href="#">Payment Method</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials text-end">
+            <h3 class="text-white">Title Here</h3>
+            <p class="h4 fw-normal text-white">
+              Lorem Ipsum available, but the majorit
+            </p>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control rounded-0 border-0 text-white"
+                type="email"
+                placeholder="example@email.com"
+              />
+              <button class="btn rounded-0" type="submit">
+                <i
+                  class="ph-duotone ph-paper-plane-tilt text-white"
+                  style="font-size: 32px"
+                ></i>
+              </button>
+            </form>
+            <div class="d-flex flex-row justify-content-end gap-3 mt-4">
+              <i
+                class="ph ph-instagram-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph-fill ph-facebook-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph ph-twitter-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+              <i
+                class="ph ph-whatsapp-logo text-dark p-1 rounded-circle bg-white"
+                style="font-size: 30px"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom Script -->
+    <script src="./assets/js/posts.js"></script>
+    <script src="./assets/js/team.js"></script>
+    <script src="./assets/js/services.js"></script>
+    <script src="./assets/js/dogs.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
