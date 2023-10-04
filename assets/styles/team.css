@@ -1,0 +1,14 @@
+#team {
+  margin-top: 139px;
+}
+
+#team #teamContainer {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  #team #teamContainer {
+    justify-content: space-between;
+  }
+}

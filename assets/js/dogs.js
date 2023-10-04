@@ -24,7 +24,7 @@ const dogsContainer = document.getElementById('dogsContainer');
 dogsContainer.innerHTML = dogs
   .map(
     (dog) => `
-    <div class="dog d-flex flex-column gap-3">
+    <div class="d-flex flex-column gap-3">
     <img src="${dog.image}" alt="${dog.name}" />
     <div class="mt-3 d-flex flex-column gap-3 align-items-center">
       <h3 class="d-flex flex-row gap-3 text-white fw-semibold">
